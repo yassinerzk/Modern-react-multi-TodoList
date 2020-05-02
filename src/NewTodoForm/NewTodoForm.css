@@ -37,3 +37,15 @@
   font-family: "Quicksand", sans-serif;
   height: 3rem;
 }
+@media only screen and (max-width: 768px) {
+  .NewTodoForm {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .NewTodoForm label {
+    min-width: 90%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+}
